@@ -25,7 +25,7 @@ h1 {
 
 #Name {
   font-size: 50px;
-  font-family: 'Syne Tactile', cursive;
+  font-family: "Syne Tactile", cursive;
 }
 
 h2 {
@@ -35,7 +35,7 @@ h2 {
 }
 
 #Bio {
-    font-family: cursive;
+  font-family: cursive;
   padding: 50px;
 }
 
@@ -55,17 +55,21 @@ h2 {
   list-style: none;
   position: absolute;
   top: 10px;
-  right: 30px;
+  right: 250px;
   z-index: 10;
   cursor: pointer;
 }
 
 .links {
-float: left;
-padding-top: 5px;
-padding-left: 9px;
-padding-right: 9px;
-padding-bottom: 5px;
-font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  float: left;
+  padding-top: 5px;
+  padding-left: 9px;
+  padding-right: 9px;
+  padding-bottom: 5px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
 
+a {
+  text-decoration: none;
+  
 }
