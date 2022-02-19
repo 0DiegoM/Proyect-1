@@ -53,23 +53,50 @@ h2 {
 
 .menu {
   list-style: none;
-  position: absolute;
+  position: fixed;
+  background: white;
+  width: 100%;
+  margin-top: 0px;
+  top: 0px;
+  z-index: 10;
+}
+
+/* list-style: none;
+  position: fixed;
   top: 10px;
-  right: 250px;
+  right: 30px;
   z-index: 10;
   cursor: pointer;
-}
+  background: white;
+  width: 100%;
+  margin-top: 0px;
+  */
 
 .links {
   float: left;
+  display: inline;
+  padding-left: 33px;
+  padding-right: 25px;
   padding-top: 5px;
-  padding-left: 9px;
-  padding-right: 9px;
   padding-bottom: 5px;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
+.links:hover {
+  font-size: 25px;
+  text-decoration: underline;
+
+}
+
+#Text a {
+text-decoration: underline !important;
+
+}
+
+#Con iframe {
+  width: 100%;
+}
+
 a {
   text-decoration: none;
-  
 }
