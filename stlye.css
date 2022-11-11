@@ -100,3 +100,7 @@ text-decoration: underline !important;
 a {
   text-decoration: none;
 }
+
+html {
+  scroll-behavior: smooth;
+}
